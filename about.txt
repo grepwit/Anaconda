@@ -1,0 +1,5 @@
+Theme name:    Anaconda
+Description:   Light and clear theme for Anchor CMS.
+Author name:   Piotr Filipek
+Author site:   http://twitter.com/danoxide
+License:       http://licence.visualidiot.com
