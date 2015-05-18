@@ -4,7 +4,7 @@ Anaconda is my new theme that was created specially for Anchor CMS.
 
 Settings
 --------
-To fully usable you should add site variables: "jumbotron_text" and "jumbotron_title".
+To fully functional of theme you should add site variables: "jumbotron_text" and "jumbotron_title".
 
 Preview
 -------
