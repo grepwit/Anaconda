@@ -1,6 +1,6 @@
 Anaconda Theme
 ==============
-Anaconda is my new theme that was created specially for Anchor CMS.
+Anaconda is my new theme that was created specially for Anchor CMS. Theme is based on the Bootstrap 3.
 
 Settings
 --------
