@@ -22,8 +22,8 @@
 
 			<nav>
 				<ul class="pager">
-					<?php if(anaconda_is_prev()): ?><li><a href="<?php echo anaconda_prev('slug'); ?>" class="pull-left"><span class="glyphicon glyphicon-chevron-left"></span> Previous article</a></li><?php endif; ?>
-					<?php if(anaconda_is_next()): ?><li><a href="<?php echo anaconda_next('slug'); ?>" class="pull-right">Next article <span class="glyphicon glyphicon-chevron-right"></span></a></li><?php endif; ?>
+					<?php if(article_previous_url()): ?><li><a href="<?php echo article_previous_url(); ?>" class="pull-left"><span class="glyphicon glyphicon-chevron-left"></span> Previous article</a></li><?php endif; ?>
+					<?php if(article_next_url()): ?><li><a href="<?php echo article_next_url(); ?>" class="pull-right">Next article <span class="glyphicon glyphicon-chevron-right"></span></a></li><?php endif; ?>
 				</ul>
 			</nav>
 

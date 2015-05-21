@@ -38,29 +38,6 @@ function relative_time($date) {
 	}
 }
 
-// To don't reapeat the code
-function anaconda_np($c = '<') {
-	return Post::where(Base::table('posts.id'), $c, article_id());
-}
-
-// Check is prev article exists
-function anaconda_is_prev() {
-	return anaconda_np('<')->count();
-}
-
-// Check is next article exists
-function anaconda_is_next() {
-	return anaconda_np('>')->count();
-}
-
-function anaconda_prev($v) {
-	return end(anaconda_np('<')->get())->data[$v];
-}
-
-function anaconda_next($v) {
-	return anaconda_np('>')->get()[0]->data[$v];
-}
-
 function anaconda_comments(){
 	return Query::table(Base::table(Comment::$table))->get();
 }
