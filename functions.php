@@ -39,7 +39,7 @@ function relative_time($date) {
 }
 
 function anaconda_comments(){
-	return Query::table(Base::table(Comment::$table))->get();
+	return Query::table(Base::table(Comment::$table))->where('status', '=', 'approved')->get();
 }
 
 function anaconda_posts(){
