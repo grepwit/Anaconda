@@ -17,7 +17,7 @@
 					</div>
 				</header>
 
-				<?php echo article_markdown(); ?>
+				<?php echo article_html(); ?>
 			</article>
 
 			<nav>
@@ -29,7 +29,7 @@
 
 			<?php if(comments_open()): ?>
 			<section class="comments" id="comments">
-				<h3>Komentarze</h3>
+				<h3>Comments</h3>
 				<?php if(has_comments()): ?>
 				<ul class="commentlist">
 					<?php $i = 0; while(comments()): $i++; ?>
