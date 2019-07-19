@@ -51,7 +51,7 @@ function anaconda_post_slug($id) {
 }
 
 function twitter_account() {
-	return site_meta('twitter', 'danoxide');
+	return site_meta('twitter', 'grepwit');
 }
 
 function twitter_url() {
